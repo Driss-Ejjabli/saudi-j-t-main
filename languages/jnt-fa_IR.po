@@ -1,0 +1,439 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: J&T Express UAE\n"
+"POT-Creation-Date: 2023-10-15 18:43+0330\n"
+"PO-Revision-Date: 2023-10-15 18:43+0330\n"
+"Last-Translator: Amirhossein Hosseinpour <its@amirhp.com>\n"
+"Language-Team: Amirhossein Hosseinpour <its@amirhp.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: jnt-uae.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-jnt-cancel-order.php:22
+msgid "Cancel J&T Order"
+msgstr ""
+
+#: admin/class-jnt-consignment-note.php:27
+msgid "Print J&T Consignment Note (A4)"
+msgstr ""
+
+#: admin/class-jnt-order.php:44
+msgid "Delivery fee"
+msgstr ""
+
+#: admin/class-jnt-order.php:93
+msgid "Request Error"
+msgstr ""
+
+#: admin/class-jnt-order.php:106
+msgid "Estimated delivery cost"
+msgstr ""
+
+#: admin/class-jnt-order.php:115
+msgid "Weight"
+msgstr "وزن"
+
+#: admin/class-jnt-order.php:128
+msgid "Order to J&T(UAE)"
+msgstr ""
+
+#: admin/class-jnt-setting.php:30 includes/class-jnt-shipping.php:51
+msgid "Province"
+msgstr "استان"
+
+#: admin/class-jnt-setting.php:31 includes/class-jnt-shipping.php:52
+msgid "J&T Express: The province in which your business is located."
+msgstr ""
+
+#: admin/class-jnt-thermal-new.php:26
+msgid "Print J&T Consignment Note (more item)"
+msgstr ""
+
+#: admin/class-jnt-thermal.php:26
+msgid "Print J&T Consignment Note (Thermal)"
+msgstr ""
+
+#: includes/class-jnt-helper.php:63
+msgid "Tracking number:"
+msgstr ""
+
+#: includes/class-jnt-helper.php:69
+msgid "Last Delivery Status Change:"
+msgstr ""
+
+#: includes/class-jnt-helper.php:76
+msgid "Dispatcher Contact:"
+msgstr ""
+
+#: includes/class-jnt-helper.php:82
+msgid "Current Delivery Status:"
+msgstr ""
+
+#: includes/class-jnt-helper.php:235 includes/class-jnt-helper.php:259
+msgctxt "Order status"
+msgid "Delivered"
+msgstr ""
+
+#: includes/class-jnt-helper.php:240
+#, php-format
+msgid "Delivered <span class=\"count\">(%s)</span>"
+msgid_plural "Delivered <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-jnt-helper.php:244 includes/class-jnt-helper.php:258
+msgctxt "Order status"
+msgid "Delivery in Progress"
+msgstr ""
+
+#: includes/class-jnt-helper.php:249
+#, php-format
+msgid "Delivery in Progress <span class=\"count\">(%s)</span>"
+msgid_plural "Delivery in Progress <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-jnt-shipping.php:13
+msgid "J&T Express"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:14
+msgid "To start order to J&T Express (UAE), please fill in your info."
+msgstr ""
+
+#: includes/class-jnt-shipping.php:22
+msgid "cloudways Shipping"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:34 includes/class-jnt-shipping.php:196
+msgid "-- Disabled (Do Nothing) --"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:39
+msgid "Enable"
+msgstr "فعال"
+
+#: includes/class-jnt-shipping.php:40
+msgid "Enable this shipping."
+msgstr ""
+
+#: includes/class-jnt-shipping.php:45
+msgid "Title"
+msgstr "کالا"
+
+#: includes/class-jnt-shipping.php:58
+msgid "J&T Express Authorization"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:60
+msgid "VIP Code"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:62
+msgid "Go to J&T Express get your VIP Code."
+msgstr ""
+
+#: includes/class-jnt-shipping.php:65
+msgid "API Key"
+msgstr "کلید API"
+
+#: includes/class-jnt-shipping.php:67
+msgid "Provided by J&T Express"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:71
+msgid "J&T Express Configuration"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:73
+msgid "Sender Name"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:78
+msgid "Sender Phone Number"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:83
+msgid "Service Type"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:85
+msgid "PICKUP"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:85
+msgid "DROPOFF"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:88
+msgid "Goods Name"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:90
+msgid "Tick this to show Goods Name in Consignment Note (more item)."
+msgstr ""
+
+#: includes/class-jnt-shipping.php:93
+msgid "Order ID"
+msgstr "سفارش"
+
+#: includes/class-jnt-shipping.php:95
+msgid "Tick this to show Order ID in Consignment Note (more item)."
+msgstr ""
+
+#: includes/class-jnt-shipping.php:99
+msgid "Sync Order via J&T Express"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:101
+msgid "Send Order to J&T Express (UAE)"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:102
+msgid ""
+"Whether to Send WooCommerce Orders to J&T Express (UAE) automatically or "
+"manually"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:104
+msgid "Automatically"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:104
+msgid "Manually"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:107
+msgid "First Condition"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:108
+msgid ""
+"Select WooCommerce Order Statuses you want to automatically send Orders to "
+"J&T Express (UAE)"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:115
+msgid "Second Condition"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:116
+msgid ""
+"Enter Shipping method title or a part of it, after Checking Order Status it "
+"would also check<br> if Shipping method title is matching your entered name "
+"then automatically send Orders to<br>J&T Express (UAE). You can Empty this "
+"field to disable Second Condition and only work with Order Status."
+msgstr ""
+
+#: includes/class-jnt-shipping.php:122
+msgid "Status Transition"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:124
+msgid "Status after Sent to J&T Express"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:125
+msgid "You can change Order Status When Order is sent to J&T Express (UAE)"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:132
+msgid "Status after Delivered by J&T Express"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:133
+msgid ""
+"You can change Order Status When Order is Delivered by J&T Express (UAE)"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:140
+msgid "Cancel Order from J&T Express"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:141
+msgid "Cancel Order from J&T Express on WC Order Cancellation"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:142
+msgid ""
+"Cancel Order from J&T Express if WooCommerce Order status is equal to "
+"Canceled"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:147
+msgid "Disable Cancellation"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:148
+msgid "Disable Picked-up WC Order Cancellation"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:149
+msgid ""
+"Do NOT allow WooCommerce / Admin to Cancel an Order which delivery status is "
+"Picked-up or further"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:155
+msgid "Notification"
+msgstr "اطلاع رسانی"
+
+#: includes/class-jnt-shipping.php:157
+msgid "Missed Delivery Email Notification"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:158
+msgid "Notify Admin via Email when Missed Delivery Status"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:159
+msgid ""
+"If an Order is sent to J&T Express and specific days has passed and still "
+"Delivery state is not changed, notify Admin via Email to double-check the "
+"situation"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:164
+msgid "Missed Delivery Delay"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:165
+msgid "Enter delayed time in days,<br>e.g. Enter '7' for a week"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:166
+msgid ""
+"How many days should be passed from date Order is sent to J&T Express to "
+"consider it missed if status has not changed yet"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:171
+msgid "Email Subject"
+msgstr "موضوع ایمیل"
+
+#: includes/class-jnt-shipping.php:172
+msgid "Notification Email's subject, you can use {order_id} as macro"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:174
+msgid "Missed Delivery"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:177
+msgid "Email Receivers"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:178
+msgid "Email addresses separated by comma to receive notification"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:183
+msgid "Email Content"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:184
+msgid "HTML and Shortcodes are supported, you can use {order_id} as macro"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:191
+msgid "Cash on Delivery"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:193
+msgid "Cash on Delivery Fee Type"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:194
+msgid ""
+"Select an Option to add Custom Fee if Payment method is Cash-on-Delivery"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:196
+msgid "Fixed Amount"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:196
+msgid "Percentage of Order Total"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:199
+msgid "Cash on Delivery Fee Amount"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:200
+#, php-format
+msgid "Enter number only, <br>e.g. for 15% only enter 15"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:201
+msgid ""
+"Enter Cash on Delivery Fee Amount based on previous option, Only enter "
+"Numeric value"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:206
+msgid "Cash on Delivery Fee Label"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:207
+msgid "Enter Cash on Delivery Fee Label which would be Added into Order Totals"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:213
+msgid "Cronjob"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:215
+msgid "Cronjob Interval (Minutes)"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:216
+msgid ""
+"Enter number only, <br>e.g. for 30 minutes only enter 30<br><strong>It is "
+"recomonded to NOT use number lower than 30</strong>"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:217
+msgid ""
+"How often should orders delivery status be checked, set time in Minutes, "
+"Only enter Numeric value"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:222
+msgid "Monitoring Statuses"
+msgstr ""
+
+#: includes/class-jnt-shipping.php:223
+msgid ""
+"Select WooCommerce Order Statuses you want to monitor while each cron "
+"runs<br>This list should not Include Canceled, Pending, Completed or "
+"Delivered Status because we DO NOT NEED to double-check those Orders"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "J&T Express UAE"
+msgstr "J&T Express UAE"
+
+#. Description of the plugin/theme
+msgid "WooCommerce integration for J&T."
+msgstr "همگامسازی ووکامرس و J&T Express."
+
+#. Author of the plugin/theme
+msgid "Liam, AmirhpCom"
+msgstr "امیرحسین حسین پور"
+
+#. Author URI of the plugin/theme
+msgid "https://amirhp.com"
+msgstr "https://amirhp.com"
