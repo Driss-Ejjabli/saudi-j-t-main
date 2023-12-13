@@ -201,7 +201,7 @@ class Jnt_Api {
         $body = wp_remote_retrieve_body($result);
         if ($this->str_contains($body, '{"code"')) {
             $data = json_decode($body);
-            wp_die("<h2>Print [$awbs] Error</h2>$data->msg", "Print Error", ["back_link"=>true]);
+          //  wp_die("<h2>Print [$awbs] Error</h2>$data->msg", "Print Error", ["back_link"=>true]);
         }
         if (true === $return) return $body;
         header("Content-Type: application/pdf");
@@ -227,7 +227,7 @@ class Jnt_Api {
         $body = wp_remote_retrieve_body($result);
         if ($this->str_contains($body, '{"code"')) {
             $data = json_decode($body);
-            wp_die("<h2>Print [$awbs] Error</h2>$data->msg", "Print Error", ["back_link"=>true]);
+           // wp_die("<h2>Print [$awbs] Error</h2>$data->msg", "Print Error", ["back_link"=>true]);
         }
         if (true === $return)return $body;
         header("Content-Type: application/pdf");
